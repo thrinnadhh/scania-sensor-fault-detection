@@ -26,10 +26,10 @@
 	3. AmazonS3FullAccess
 
 3.Create a s3 bukcet in ap-south-1
-	bucket name: scania-sensor-pipeline
+	bucket name: scania-sensor-s3
 	
 4. ECR repo to store/save docker image
-	566373416292.dkr.ecr.ap-south-1.amazonaws.com/sensor-fault
+	043421635470.dkr.ecr.ap-south-1.amazonaws.com/scania-sensor-ecr
 	
 5. EC2 machine  Ubuntu  Created
 
