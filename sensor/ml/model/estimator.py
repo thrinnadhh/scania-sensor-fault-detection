@@ -14,7 +14,6 @@ class TargetValueMapping:
 
 
 
-
 #Write a code to train model and check the accuracy.
 
 class SensorModel:
