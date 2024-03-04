@@ -1,2 +1,2 @@
-TRAINING_BUCKET_NAME = "scania-sensor-fault-detection"
+TRAINING_BUCKET_NAME = "scanias3"
 PREDICTION_BUCKET_NAME = "sensor-datasource"
