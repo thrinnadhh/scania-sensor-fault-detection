@@ -20,7 +20,6 @@ from sensor.utils.main_utils import save_numpy_array_data, save_object
 
 
 
-
 class DataTransformation:
     def __init__(self,data_validation_artifact: DataValidationArtifact, 
                     data_transformation_config: DataTransformationConfig,):
