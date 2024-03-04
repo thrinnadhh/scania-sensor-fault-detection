@@ -1,4 +1,3 @@
-
 from datetime import datetime
 import os
 from sensor.constant  import training_pipeline
