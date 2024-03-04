@@ -22,7 +22,6 @@ class TrainPipeline:
         self.s3_sync = S3Sync()
         
 
-
     def start_data_ingestion(self)->DataIngestionArtifact:
         try:
             self.data_ingestion_config = DataIngestionConfig(training_pipeline_config=self.training_pipeline_config)
