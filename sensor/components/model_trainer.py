@@ -67,7 +67,7 @@ class ModelTrainer:
             sensor_model = SensorModel(preprocessor=preprocessor,model=model)
             save_object(self.model_trainer_config.trained_model_file_path, obj=sensor_model)
 
-            #model trainer artifact
+            #model trainer artif
 
             model_trainer_artifact = ModelTrainerArtifact(trained_model_file_path=self.model_trainer_config.trained_model_file_path, 
             train_metric_artifact=classification_train_metric,
