@@ -3,6 +3,7 @@ from sensor.exception import SensorException
 from sklearn.metrics import f1_score,precision_score,recall_score
 import os,sys
 
+
 def get_classification_score(y_true,y_pred)->ClassificationMetricArtifact:
     try:
         model_f1_score = f1_score(y_true, y_pred)
