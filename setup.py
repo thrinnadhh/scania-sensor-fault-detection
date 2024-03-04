@@ -1,6 +1,7 @@
 from setuptools import find_packages,setup
 from typing import List
 
+
 def get_requirements()->List[str]:
     """
     This function will return list of requirements
