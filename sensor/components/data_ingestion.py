@@ -69,7 +69,6 @@ class DataIngestion:
         except Exception as e:
             raise SensorData(e,sys)
     
-
     def initiate_data_ingestion(self) -> DataIngestionArtifact:
         try:
             dataframe = self.export_data_into_feature_store()
