@@ -86,7 +86,9 @@ jobs:
       
       - name: Pull latest images
         run: |
-         docker pull ${{secrets.AWS_ECR_LOGIN_URI}}/${{secrets.AWS_ECR_LOGIN_URI}}:latest
+         docker pull ${{secrets.AWS_ECR_LOGIN_URI}}/${{secrets.AWS_ECR_REPOSITORY_NAME}}:latest
+         docker build -t $ECR_REGISTRY/$ECR_REPOSITORY:$IMAGE_TAG .
+         docker push $ECR_REGISTRY/$ECR_REPOSITORY:$IMAGE_TAG
 
      
       - name: Run Docker Image to serve users
