@@ -17,6 +17,7 @@ from sensor.utils.main_utils import load_object
 from fastapi.middleware.cors import CORSMiddleware
 import os
 
+
 env_file_path=os.path.join(os.getcwd(),"env.yaml")
 
 def set_env_variable(env_file_path):
