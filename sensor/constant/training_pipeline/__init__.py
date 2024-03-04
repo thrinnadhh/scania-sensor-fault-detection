@@ -1,6 +1,7 @@
 import os
 from sensor.constant.s3_bucket import TRAINING_BUCKET_NAME
 
+
 SAVED_MODEL_DIR =os.path.join("saved_models")
 # defining common constant variable for training pipeline
 TARGET_COLUMN = "class"
