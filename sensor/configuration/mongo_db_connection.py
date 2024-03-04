@@ -5,6 +5,7 @@ import certifi
 import os
 ca = certifi.where()
 
+
 class MongoDBClient:
     client = None
     def __init__(self, database_name=DATABASE_NAME) -> None:
